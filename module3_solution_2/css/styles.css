@@ -5,25 +5,53 @@ body {
  	font-family: Lato;
  	font-size: 18px;
  	color: black;
-
  }
 
  /** HEADER **/
  #header-nav {
- 	background-color: grey;
+ 	background-color: #003366;
  	border-radius: 0;
  }
 .navbar-default .navbar-brand {
- 	color:black;
+ 	color:white;
+ 	padding: 10 0 10;
  	font-size: 1.8em;
+ }
+ .navbar-nav {
+ 	margin: 0px;
+ }
+ .navbar-collapse {
+ 	padding:0px;
  }
 #nav-list {
 	text-align: center;
-	color: white;	
-	background-color: black;
+	color: #003366;
+	background-color: white;
+	padding:5px;	
 }
-#menu-content {
-	background-color: grey;
-	color: black;
-	height: 1000px;
+#nav-list > hr {
+	margin:0px;
+	color:black;
+}
+.icon-bar {
+	border-color: white;
+	border: 1px;
+}
+
+/** END HEADER **/
+h1 {
+	color: #003366;
+}
+h2 {
+	text-align: center;
+	padding-top: 10px;
+}
+#menu-sub1, #menu-sub2, #menu-sub3 {
+	background-color: #003366;
+	color: white;
+	height: 600px;
+	position: relative;
+}
+#menu-subs p {
+	padding: 10px;
 }
