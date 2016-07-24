@@ -1,0 +1,19 @@
+ body {
+ 	font-family: Lato;
+ 	font-size: 18px;
+ 	color: black;
+ }
+
+ /** HEADER **/
+ #header-nav {
+ 	background-color: grey;
+ 	border-radius: 0;
+ 	border: 2px;
+ 	border-color: black;
+ }
+
+.navbar-default .navbar-brand {
+ 	color:black;
+ 	font-size: 1.8em;
+ 	padding-left: 0px;
+ 	 }
